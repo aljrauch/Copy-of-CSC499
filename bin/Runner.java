@@ -40,13 +40,13 @@ public class Runner
 		Runner r = new Runner();
 		Network n = new Network(r);
 
-		Scanner scan = new Scanner(new File("//Users/ARauch/Documents/CSC499/Industries.csv"));
+		Scanner scan = new Scanner(new File("//Users/ARauch/Documents/CSC499/TechnologyIndustry.csv"));
 		scan.useDelimiter(",");
 
-		Scanner endLine = new Scanner(new File("//Users/ARauch/Documents/CSC499/Industries.csv"));
+		Scanner endLine = new Scanner(new File("//Users/ARauch/Documents/CSC499/TechnologyIndustry.csv"));
 		endLine.useDelimiter(",");
 
-		Scanner endFile = new Scanner(new File("//Users/ARauch/Documents/CSC499/Industries.csv"));
+		Scanner endFile = new Scanner(new File("//Users/ARauch/Documents/CSC499/TechnologyIndustry.csv"));
 
 		//Input positions
 		int counter = 0;
